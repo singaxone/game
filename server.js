@@ -52,6 +52,7 @@ app.get('/world/items', (req, res) => res.send(world.items));
 app.get('/world/players', (req, res) => res.send(world.players));
 app.get('/world/respawns', (req, res) => res.send(world.respawns));
 app.get('/world/shops', (req, res) => res.send(world.shops));
+app.get('/world/exchange', (req, res) => res.send(world.exchange));
 /** ************************************** */
 
 // Start the game server.
